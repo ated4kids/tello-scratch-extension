@@ -53,14 +53,14 @@ var busyId = null;
 var speed = 100.0; // cm/s
 
 const directionMapping = {
-  前: "f",
-  後ろ: "b",
-  左: "l",
-  右: "r",
-  左斜め前: "lf",
-  左斜め後ろ: "lb",
-  右斜め前: "rf",
-  右斜め後ろ: "rb"
+  a: "f",
+  d: "b",
+  sx: "l",
+  dx: "r",
+  asx: "lf",
+  dsx: "lb",
+  adx: "rf",
+  ddx: "rb"
 };
 
 // HTTP (Scratch <-> Helper)
