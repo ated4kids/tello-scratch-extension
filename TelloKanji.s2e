@@ -4,85 +4,85 @@
     "blockSpecs": [
         [
             "w",
-            "離陸する",
+            "decolla",
             "takeoff"
         ],
         [
             "w",
-            "着陸する",
+            "atterra",
             "land"
         ],
         [
             "w",
-            "%n cm上昇する",
+            "vola su di %n cm",
             "up",
             20
         ],
         [
             "w",
-            "%n cm下降する",
+            "vola giù di %n cm",
             "down",
             20
         ],
         [
             "w",
-            "左に %n cm移動する",
+            "vola a sinistra di %n cm",
             "left",
             20
         ],
         [
             "w",
-            "右に %n cm移動する",
+            "vola a destra di %n cm",
             "right",
             20
         ],
         [
             "w",
-            "前に %n cm移動する",
+            "vola avanti di %n cm",
             "forward",
             20
         ],
         [
             "w",
-            "後ろに %n cm移動する",
+            "vola indietro di %n cm",
             "back",
             20
         ],
         [
             "w",
-            "時計回りに %n 度回転",
+            "ruota in senso orario di %n gradi",
             "cw",
             90
         ],
         [
             "w",
-            "反時計回りに %n 度回転",
+            "ruota in senso antiorario di %n gradi",
             "ccw",
             90
         ],
         [
             "w",
-            "%m.flipDirection 方向にフリップ",
+            "%m.flipDirection capriola (a, dx, sx, d)",
             "flip",
-            "前"
+            "a"
         ],
         [
             "w",
-            "スピードを秒速 %n cmにする",
+            "imposta velocità %n",
             "setspeed",
             80
         ]
     ],
     "menus": {
         "flipDirection": [
-            "前",
-            "後ろ",
-            "左",
-            "右",
-            "左斜め前",
-            "左斜め後ろ",
-            "右斜め前",
-            "右斜め後ろ"
+            "a",
+            "dx",
+            "sx",
+            "d",
+            "adx",
+            "ddx",
+            "asx",
+            "dsx"
         ]
     }
 }
